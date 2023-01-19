@@ -19,8 +19,11 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        child: Text('Hello World'),
+      body: SafeArea(
+        child: Container(
+          margin: EdgeInsets.only(left: 10.0,right: 10.0),
+          child: Text('Hello World' ),
+        ),
       ),
     );
   }
