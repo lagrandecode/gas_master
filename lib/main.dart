@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -21,8 +22,10 @@ class Home extends StatelessWidget {
     return Scaffold(
       body: SafeArea(
         child: Container(
-          margin: EdgeInsets.only(left: 10.0,right: 10.0),
-          child: Text('Hello World' ),
+          margin: const EdgeInsets.only(left: 10.0, right: 10.0),
+          child: const Center(
+            child: Text('Gas Master'),
+          ),
         ),
       ),
     );
